@@ -101,7 +101,7 @@ export default function Home() {
       </div>
       {/* Cách hoạt động */}
       <div className="container mx-auto" id="section2">
-        <div className="py-28 relative">
+        <div className="py-20 relative">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             4 Bước nhận tiền qua BitSound
           </h2>
@@ -165,7 +165,7 @@ export default function Home() {
       </div>
       {/* Ưu điểm */}
       <div className="container mx-auto" id="section3">
-        <div className="py-28">
+        <div className="py-20">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             Tại sao chọn BitSound
           </h2>
@@ -240,7 +240,7 @@ export default function Home() {
       </div>
       {/* Giải pháp */}
       <div className="container mx-auto" id="section4">
-        <div className="py-28">
+        <div className="py-20">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10 max-w-4xl mx-auto">
             BitSound - Giải pháp thanh toán toàn diện cho mọi nhà bán hàng
           </h2>
@@ -306,7 +306,7 @@ export default function Home() {
       </div>
       {/* Khách hàng */}
       <div className="container mx-auto" id="section5">
-        <div className="py-28">
+        <div className="py-20">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             BitSound phù hợp với đa dạng loại hình kinh doanh
           </h2>
@@ -370,7 +370,7 @@ export default function Home() {
       </div>
       {/* Hỏi đáp FAQ */}
       <div className="container mx-auto" id="section6">
-        <div className="py-28">
+        <div className="py-20">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             Hỏi và đáp về BitSound
           </h2>
