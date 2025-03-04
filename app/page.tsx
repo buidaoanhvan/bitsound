@@ -95,12 +95,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-span-12 order-1 lg:order-2 lg:col-span-7 flex items-center justify-center items-center">
-            <Image
-              src="https://loatingting.vn/images/hero.png"
-              alt="loa"
-              width={641}
-              height={600}
-            />
+            <Image src="/img/image1.png" alt="loa" width={641} height={600} />
           </div>
         </div>
       </div>
@@ -185,9 +180,7 @@ export default function Home() {
               </p>
               <Image
                 className="absolute start-0 bottom-0 rounded-bl-2xl"
-                src={
-                  "https://cdn.loatingting.com/landing/images/image-why-2.png"
-                }
+                src="/img/image2.png"
                 alt="image-why-2"
                 width={500}
                 height={200}
@@ -203,9 +196,7 @@ export default function Home() {
               </p>
               <Image
                 className="absolute start-0 bottom-0 rounded-bl-2xl"
-                src={
-                  "https://cdn.loatingting.com/landing/images/image-why-3.png"
-                }
+                src="/img/image3.png"
                 alt="image-why-2"
                 width={300}
                 height={200}
@@ -221,9 +212,7 @@ export default function Home() {
               </p>
               <Image
                 className="absolute end-0 bottom-0 rounded-br-2xl"
-                src={
-                  "https://cdn.loatingting.com/landing/images/image-why-4.png"
-                }
+                src="/img/image.png"
                 alt="image-why-2"
                 width={300}
                 height={200}
@@ -240,9 +229,7 @@ export default function Home() {
               </ul>
               <Image
                 className="absolute end-0 bottom-0 rounded-br-2xl"
-                src={
-                  "https://cdn.loatingting.com/landing/images/image-why-4.png"
-                }
+                src="/img/image3.png"
                 alt="image-why-2"
                 width={300}
                 height={200}
@@ -283,9 +270,7 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                src={
-                  "https://cdn.loatingting.com/landing/images/img-price-1.png"
-                }
+                src="/img/image copy.png"
                 alt="image-why-2"
                 width={427}
                 height={200}
@@ -309,9 +294,7 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                src={
-                  "https://cdn.loatingting.com/landing/images/img-price-2.png"
-                }
+                 src="/img/image copy 2.png"
                 alt="image-why-2"
                 width={468}
                 height={200}

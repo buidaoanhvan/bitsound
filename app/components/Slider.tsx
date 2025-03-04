@@ -51,7 +51,7 @@ export default function SliderComponent() {
   return (
     <Slider {...settings} className="overflow-hidden">
       <Image
-        src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+        src="/img/image copy 3.png"
         alt="1"
         width={250}
         height={250}
@@ -59,14 +59,14 @@ export default function SliderComponent() {
       />
       <div>
         <Image
-          src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+          src="/img/image copy 3.png"
           alt="1"
           width={250}
           height={250}
           className="object-cover px-1 w-full h-[12.2vw] min-h-[121px] mb-2" // Cắt hình và bo góc
         />
         <Image
-          src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+          src="/img/image copy 3.png"
           alt="1"
           width={250}
           height={250}
@@ -74,7 +74,7 @@ export default function SliderComponent() {
         />
       </div>
       <Image
-        src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+        src="/img/image copy 3.png"
         alt="1"
         width={250}
         height={250}
@@ -82,14 +82,14 @@ export default function SliderComponent() {
       />
       <div>
         <Image
-          src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+          src="/img/image copy 3.png"
           alt="1"
           width={250}
           height={250}
           className="object-cover px-1 w-full h-[12.2vw] min-h-[121px] mb-2" // Cắt hình và bo góc
         />
         <Image
-          src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+          src="/img/image copy 3.png"
           alt="1"
           width={250}
           height={250}
@@ -97,7 +97,7 @@ export default function SliderComponent() {
         />
       </div>
       <Image
-        src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+        src="/img/image copy 3.png"
         alt="1"
         width={250}
         height={250}
@@ -105,14 +105,14 @@ export default function SliderComponent() {
       />
       <div>
         <Image
-          src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+          src="/img/image copy 3.png"
           alt="1"
           width={250}
           height={250}
           className="object-cover px-1 w-full h-[12.2vw] min-h-[121px] mb-2" // Cắt hình và bo góc
         />
         <Image
-          src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+          src="/img/image copy 3.png"
           alt="1"
           width={250}
           height={250}
@@ -120,7 +120,7 @@ export default function SliderComponent() {
         />
       </div>
       <Image
-        src="https://cdn.loatingting.com/landing/images/customer-i-h-3.png"
+        src="/img/image copy 3.png"
         alt="1"
         width={250}
         height={250}
