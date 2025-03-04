@@ -7,18 +7,37 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #032c3f;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.transition-all {
+  transition: max-height 0.3s ease-in-out;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #032c3f !important; /* Đổi màu mũi tên */
+  font-size: 20px !important; /* Tăng kích thước */
+}
+
+.slick-prev {
+  left: 9px !important; /* Điều chỉnh vị trí mũi tên trái */
+  position: absolute !important;
+  z-index: 9999 !important; /* Đưa mũi tên trái lên trên */
+}
+
+.slick-next {
+  right: 9px !important; /* Điều chỉnh vị trí mũi tên phải */
+  position: absolute !important;
+  z-index: 9999 !important; /* Đưa mũi tên trái lên trên */
 }
