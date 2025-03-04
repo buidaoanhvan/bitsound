@@ -73,7 +73,7 @@ const Snowfall = () => {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 25,
         },
         opacity: {
           value: 0.5,

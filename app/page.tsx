@@ -10,49 +10,49 @@ import SliderCutomer from "./components/SliderCutomer";
 const menuItems = [
   {
     title: "Loa BitSound",
-    href: "",
+    href: "section1",
     keyhash: "1",
     type: 1,
     active: true,
   },
   {
     title: "Cách hoạt động",
-    href: "",
+    href: "section2",
     keyhash: "2",
     type: 1,
     active: false,
   },
   {
     title: "Ưu điểm",
-    href: "",
+    href: "section3",
     keyhash: "3",
     type: 1,
     active: false,
   },
   {
     title: "Giải pháp",
-    href: "",
+    href: "section4",
     keyhash: "4",
     type: 1,
     active: false,
   },
   {
     title: "Khách hàng",
-    href: "",
+    href: "section5",
     keyhash: "5",
     type: 1,
     active: false,
   },
   {
     title: "FAQ",
-    href: "",
+    href: "section6",
     keyhash: "6",
     type: 1,
     active: false,
   },
   {
     title: "Nhận tư vấn",
-    href: "",
+    href: "section7",
     keyhash: "7",
     type: 2,
     active: false,
@@ -66,7 +66,7 @@ export default function Home() {
         <Snowfall />
       </div>
       {/* navbar */}
-      <div className="border-b-0 border-[#e6e8e9] py-2 sticky top-0 w-full z-[9999999] bg-white/96">
+      <div className="border-b-0 border-[#e6e8e9] py-2 fixed top-0 w-full z-[9999999] bg-white/96">
         <div className="flex flex-row justify-between items-center container mx-auto">
           <a className="cursor-pointer" href="/">
             <Image src="/img/logo.svg" alt="logo" width={168} height={61} />
@@ -75,9 +75,9 @@ export default function Home() {
         </div>
       </div>
       {/* hero */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="section1">
         {/* chia làm 2 */}
-        <div className="grid grid-cols-12 gap-2 py-12">
+        <div className="grid grid-cols-12 gap-2 pb-20 pt-40">
           <div className="col-span-12 order-2 lg:order-1 lg:col-span-5 flex flex-col justify-center">
             <h1 className="text-2xl lg:text-4xl font-bold">
               Loa báo kết quả thanh toán QR Code cho chủ cửa hàng
@@ -105,8 +105,8 @@ export default function Home() {
         </div>
       </div>
       {/* Cách hoạt động */}
-      <div className="container mx-auto">
-        <div className="py-12 relative">
+      <div className="container mx-auto" id="section2">
+        <div className="py-28 relative">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             4 Bước nhận tiền qua BitSound
           </h2>
@@ -152,7 +152,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="absolute top-35 start-[10%] w-[80%] h-1 mt-12 z-0 hidden lg:block">
+          <div className="absolute top-35 start-[10%] w-[80%] h-1 mt-28 z-0 hidden lg:block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 933 2"
@@ -169,8 +169,8 @@ export default function Home() {
         </div>
       </div>
       {/* Ưu điểm */}
-      <div className="container mx-auto">
-        <div className="py-12">
+      <div className="container mx-auto" id="section3">
+        <div className="py-28">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             Tại sao chọn BitSound
           </h2>
@@ -252,8 +252,8 @@ export default function Home() {
         </div>
       </div>
       {/* Giải pháp */}
-      <div className="container mx-auto">
-        <div className="py-12">
+      <div className="container mx-auto" id="section4">
+        <div className="py-28">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10 max-w-4xl mx-auto">
             BitSound - Giải pháp thanh toán toàn diện cho mọi nhà bán hàng
           </h2>
@@ -322,8 +322,8 @@ export default function Home() {
         </div>
       </div>
       {/* Khách hàng */}
-      <div className="container mx-auto">
-        <div className="py-12">
+      <div className="container mx-auto" id="section5">
+        <div className="py-28">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             BitSound phù hợp với đa dạng loại hình kinh doanh
           </h2>
@@ -386,8 +386,8 @@ export default function Home() {
         </div>
       </div>
       {/* Hỏi đáp FAQ */}
-      <div className="container mx-auto">
-        <div className="py-12">
+      <div className="container mx-auto" id="section6">
+        <div className="py-28">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">
             Hỏi và đáp về BitSound
           </h2>
@@ -395,7 +395,7 @@ export default function Home() {
         </div>
       </div>
       {/* Tư vấn */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="section7">
         <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-3xl grid grid-cols-12 mb-12">
           <div className="col-span-12 lg:col-span-6 p-6">
             <h2 className="font-bold text-2xl">Vị trí cửa hàng</h2>
@@ -449,7 +449,7 @@ export default function Home() {
         </div>
       </div>
       {/* footer */}
-      <div className="bg-[#032c3f] py-7 mt-12">
+      <div className="bg-[#032c3f] py-12 mt-12">
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-5">
             <div className="col-span-5">

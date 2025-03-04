@@ -41,3 +41,7 @@ body {
   position: absolute !important;
   z-index: 9999 !important; /* Đưa mũi tên trái lên trên */
 }
+
+.active {
+  transition: all 0.3s ease-in-out;
+}
